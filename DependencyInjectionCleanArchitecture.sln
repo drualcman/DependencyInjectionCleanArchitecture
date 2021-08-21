@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0E827DD7-5FB8-4EA6-B75B-05FCD1C10BEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{20031CD8-E054-453D-9734-CFA7C478184D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{84A8D30B-E573-478F-BFFB-02A40847CCD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{6F348CE4-2D41-41E1-A66E-2C3BA2432CCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{8028E66D-4D1D-4031-B71F-82A6DBF14F44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WF", "WF", "{5F66D063-83EC-4FC4-B604-7EB4E0C94D6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{F2142C8D-1E15-4DA9-94EC-0A40A3C214D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInyectionMediatR.Application", "DependencyInyectionMediatR.Application\DependencyInyectionMediatR.Application.csproj", "{61380E00-8DEB-4D69-9289-70F66302B602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionMediatR.Presentation.WebApi", "DependencyInjectionMediatR.Presentation.WebApi\DependencyInjectionMediatR.Presentation.WebApi.csproj", "{F8599344-8CAA-499D-AFDF-C0A5CEEA8338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionMediartR.Presentation.ConsoleApp", "DependencyInjectionMediartR.Presentation.Console\DependencyInjectionMediartR.Presentation.ConsoleApp.csproj", "{D1B4DDE8-89E9-469A-89FD-C92B5206538F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionMediatR.Presentation.WindowfForm", "DependencyInjectionMediatR.Presentation.WindowfForm\DependencyInjectionMediatR.Presentation.WindowfForm.csproj", "{461D645F-4837-462F-9F6D-C118FC1E27DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionMediatR.Presentation.WPF", "DependencyInjectionMediatR.Presentation.WPF\DependencyInjectionMediatR.Presentation.WPF.csproj", "{AD29E056-2C71-42DD-98B4-476E187C571F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61380E00-8DEB-4D69-9289-70F66302B602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61380E00-8DEB-4D69-9289-70F66302B602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61380E00-8DEB-4D69-9289-70F66302B602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61380E00-8DEB-4D69-9289-70F66302B602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8599344-8CAA-499D-AFDF-C0A5CEEA8338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8599344-8CAA-499D-AFDF-C0A5CEEA8338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8599344-8CAA-499D-AFDF-C0A5CEEA8338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8599344-8CAA-499D-AFDF-C0A5CEEA8338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B4DDE8-89E9-469A-89FD-C92B5206538F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B4DDE8-89E9-469A-89FD-C92B5206538F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B4DDE8-89E9-469A-89FD-C92B5206538F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B4DDE8-89E9-469A-89FD-C92B5206538F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{461D645F-4837-462F-9F6D-C118FC1E27DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461D645F-4837-462F-9F6D-C118FC1E27DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461D645F-4837-462F-9F6D-C118FC1E27DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461D645F-4837-462F-9F6D-C118FC1E27DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD29E056-2C71-42DD-98B4-476E187C571F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD29E056-2C71-42DD-98B4-476E187C571F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD29E056-2C71-42DD-98B4-476E187C571F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD29E056-2C71-42DD-98B4-476E187C571F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F348CE4-2D41-41E1-A66E-2C3BA2432CCD} = {84A8D30B-E573-478F-BFFB-02A40847CCD5}
+		{8028E66D-4D1D-4031-B71F-82A6DBF14F44} = {84A8D30B-E573-478F-BFFB-02A40847CCD5}
+		{5F66D063-83EC-4FC4-B604-7EB4E0C94D6A} = {84A8D30B-E573-478F-BFFB-02A40847CCD5}
+		{F2142C8D-1E15-4DA9-94EC-0A40A3C214D5} = {84A8D30B-E573-478F-BFFB-02A40847CCD5}
+		{61380E00-8DEB-4D69-9289-70F66302B602} = {20031CD8-E054-453D-9734-CFA7C478184D}
+		{F8599344-8CAA-499D-AFDF-C0A5CEEA8338} = {6F348CE4-2D41-41E1-A66E-2C3BA2432CCD}
+		{D1B4DDE8-89E9-469A-89FD-C92B5206538F} = {8028E66D-4D1D-4031-B71F-82A6DBF14F44}
+		{461D645F-4837-462F-9F6D-C118FC1E27DE} = {5F66D063-83EC-4FC4-B604-7EB4E0C94D6A}
+		{AD29E056-2C71-42DD-98B4-476E187C571F} = {F2142C8D-1E15-4DA9-94EC-0A40A3C214D5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20C5562D-75DB-4D00-BF09-4E50A31B8D88}
+	EndGlobalSection
+EndGlobal
